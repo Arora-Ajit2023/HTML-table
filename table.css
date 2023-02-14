@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.conatiner {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.brand-name {
+  display: flex;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(37, 36, 36, 0.096),
+    rgb(135, 135, 246)
+  );
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-name h1 {
+  margin: 0;
+  color: #fff;
+  font: 300 28px/47px Google-Oswald, Arial, sans-serif;
+  padding: 0.5rem;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table-container {
+  background-image: linear-gradient(80deg, #fff, #9494f6);
+}
+.table-container th > img {
+  width: 100%;
+  object-fit: contain;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.3rem;
+}
+.popularity {
+  margin-top: 1rem;
+  justify-content: center;
+  font-size: 2.2rem;
+}
+.sale {
+  text-align: center;
+}
+.sale p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+.phone-spec {
+  margin: 0.4rem;
+}
+.table-2 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
