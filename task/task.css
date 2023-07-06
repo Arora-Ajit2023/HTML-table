@@ -1,0 +1,62 @@
+body,
+div {
+  margin: 0;
+  padding: 0;
+  background-color: #e3516e;
+}
+.center {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container {
+  width: 50%;
+  height: 67%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first,
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.first > div:nth-child(even) {
+  width: 20%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+.first > div:nth-child(odd) {
+  background-color: #fade8b;
+  width: 20%;
+  height: 40px;
+}
+.first > div:nth-child(even) > .even {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 45%;
+  height: 45%;
+  background-color: #fade8b;
+}
+.second > div:nth-child(odd) {
+  width: 20%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+.second > div:nth-child(even) {
+  background-color: #fade8b;
+  width: 20%;
+  height: 40px;
+}
+
+.second > div:nth-child(odd) > .even {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 45%;
+  height: 45%;
+  background-color: #fade8b;
+}
